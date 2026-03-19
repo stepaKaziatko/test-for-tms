@@ -8,4 +8,4 @@ steps:
     url: "https://httpbin.org/status/200"
     assertions:
       - type: status
-        expected: 500
+        expected: 200
