@@ -1,0 +1,11 @@
+id: api-smoke-001
+title: "HTTPBin status 200"
+
+steps:
+  - name: "Check status"
+    type: api
+    method: GET
+    url: "https://httpbin.org/status/200"
+    assertions:
+      - type: status
+        expected: 500
