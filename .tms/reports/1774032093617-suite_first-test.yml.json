@@ -1,0 +1,17 @@
+{
+  "durationMs": 625,
+  "path": "suite/first-test.yml",
+  "startedAtMs": 1774032093617,
+  "status": "passed",
+  "steps": [
+    {
+      "durationMs": 624,
+      "message": "OK (200)",
+      "name": "Check status",
+      "responseStatus": 200,
+      "status": "passed"
+    }
+  ],
+  "testId": "api-smoke-001",
+  "title": "HTTPBin status 200"
+}

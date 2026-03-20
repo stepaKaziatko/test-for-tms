@@ -1,0 +1,17 @@
+{
+  "durationMs": 985,
+  "path": "suite/first-test.yml",
+  "startedAtMs": 1774032027143,
+  "status": "failed",
+  "steps": [
+    {
+      "durationMs": 981,
+      "message": "status assertion failed: expected 500, got 200",
+      "name": "Check status",
+      "responseStatus": 200,
+      "status": "failed"
+    }
+  ],
+  "testId": "api-smoke-001",
+  "title": "HTTPBin status 200"
+}
